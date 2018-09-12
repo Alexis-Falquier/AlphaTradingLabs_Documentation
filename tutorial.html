@@ -1,46 +1,46 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Getting Started &#8212; Alpha Trading Labs DSL documentation  documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Alpha Trading Labs DSL" href="atomlib.html" />
-    <link rel="prev" title="Using Alpha Trading Labs" href="index.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Getting Started &#8212; Alpha Trading Labs DSL documentation  documentation</title>
+  <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+      URL_ROOT:    './',
+      VERSION:     '',
+      COLLAPSE_INDEX: false,
+      FILE_SUFFIX: '.html',
+      HAS_SOURCE:  true,
+      SOURCELINK_SUFFIX: '.txt'
+    };
+  </script>
+  <script type="text/javascript" src="_static/jquery.js"></script>
+  <script type="text/javascript" src="_static/underscore.js"></script>
+  <script type="text/javascript" src="_static/doctools.js"></script>
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Search" href="search.html" />
+  <link rel="next" title="Alpha Trading Labs DSL" href="atomlib.html" />
+  <link rel="prev" title="Using Alpha Trading Labs" href="index.html" />
+ 
+<link rel="stylesheet" href="_static/custom.css" type="text/css" />
 
-  </head>
-  <body>
-  
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
-            
-  <div class="section" id="getting-started">
+<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+</head>
+<body>
+
+
+  <div class="document">
+    <div class="documentwrapper">
+      <div class="bodywrapper">
+        <div class="body" role="main">
+          
+<div class="section" id="getting-started">
 <span id="gs"></span><h1><strong>Getting Started</strong><a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
 <p>Use this page to get acquainted with Alpha Trading Labs. This will be helpful as a reference to guide you
 in setting up your model as well as writing a valuation function for a model. If you have never used
@@ -349,14 +349,14 @@ as the information on <a class="reference internal" href="atomlib.html#al"><span
 <img alt="_images/7_modelParameters.png" src="_images/7_modelParameters.png" />
 <p>Here are the model parameters you can change:</p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="bp">self</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">Author</span> <span class="o">=</span> <span class="s1">&#39;Author Unknown&#39;</span><span class="p">,</span>
-        <span class="n">Description</span> <span class="o">=</span> <span class="s1">&#39;No Description&#39;</span><span class="p">,</span>
-        <span class="n">ModelName</span><span class="o">=</span><span class="s1">&#39;Unknown&#39;</span><span class="p">,</span>
-        <span class="n">MaxDrawdown</span> <span class="o">=</span> <span class="mi">65000</span><span class="p">,</span>
-        <span class="n">MarkupToMidpt</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
-        <span class="n">ModelControlGroup</span> <span class="o">=</span> <span class="s1">&#39;AlphaLabs | Test | |&#39;</span><span class="p">,</span>
-        <span class="n">userlib_filename</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
-          <span class="p">)</span>
+      <span class="n">Author</span> <span class="o">=</span> <span class="s1">&#39;Author Unknown&#39;</span><span class="p">,</span>
+      <span class="n">Description</span> <span class="o">=</span> <span class="s1">&#39;No Description&#39;</span><span class="p">,</span>
+      <span class="n">ModelName</span><span class="o">=</span><span class="s1">&#39;Unknown&#39;</span><span class="p">,</span>
+      <span class="n">MaxDrawdown</span> <span class="o">=</span> <span class="mi">65000</span><span class="p">,</span>
+      <span class="n">MarkupToMidpt</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+      <span class="n">ModelControlGroup</span> <span class="o">=</span> <span class="s1">&#39;AlphaLabs | Test | |&#39;</span><span class="p">,</span>
+      <span class="n">userlib_filename</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+        <span class="p">)</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -378,58 +378,58 @@ not used while back testing the model.</li>
 <p>Here are the Trading Column Parameters that you can manipulate in order for your model to behave
 in the way that you want it to.</p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="bp">self</span><span class="o">.</span><span class="n">config_tc</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">EdgeUnitsMultiplier</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
-        <span class="n">EdgeUnitsPerTick</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
-        <span class="n">OrdersPerSide</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
-        <span class="n">OrderSpacing</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-        <span class="n">OrderSpacingInTicks</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
-        <span class="n">MinOrderSize</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
-        <span class="n">OrderSize</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">OrderSizeInc</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">PartialOrderMode</span> <span class="o">=</span> <span class="s1">&#39;FULL&#39;</span><span class="p">,</span>
-        <span class="n">PreserveRoundness</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
-        <span class="n">WorkingEdge</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span>
-        <span class="n">PosMax</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
-        <span class="n">PosMaxNewOrders</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
-        <span class="n">PosNormal</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
-        <span class="n">EntryEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">EntryEdgeInc</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span>
-        <span class="n">ExitEdge</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span>
-        <span class="n">ExitEdgeInc</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span>
-        <span class="n">PosEntryEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">PosExitEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">PosEdge</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span>
-        <span class="n">EntryRoundingMode</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
-        <span class="n">ExitRoundingMode</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">ExitColumnMode</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
-        <span class="n">PortfolioPosEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">PortfolioPosDenominator</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">PortfolioBeta</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
-        <span class="n">AddingOrderType</span> <span class="o">=</span> <span class="s1">&#39;ALO&#39;</span><span class="p">,</span>
-        <span class="n">MaxEdge</span> <span class="o">=</span> <span class="mi">50000</span><span class="p">,</span>
-        <span class="n">MaxPriceImprovement</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
-        <span class="n">MinJoinVolume</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">OrderDelay</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">MinOrderHitTake</span> <span class="o">=</span> <span class="mi">500</span><span class="p">,</span>
-        <span class="n">RemovalEntryEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">RemovalExitEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">RemovalOrderType</span> <span class="o">=</span> <span class="s1">&#39;IOC&#39;</span><span class="p">,</span>
-        <span class="n">CancelDelay</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">PairBeta</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
-        <span class="n">PairDenom</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">PairEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
-        <span class="n">BidsOnly</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
-        <span class="n">AsksOnly</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
-        <span class="n">PairColumnType</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="n">Strategy</span> <span class="o">=</span> <span class="s1">&#39;2 Sided Market Making&#39;</span><span class="p">,</span>
-        <span class="n">TradingEnabled</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
-        <span class="n">OrderVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
-        <span class="n">OrderSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
-        <span class="n">QuoteVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
-        <span class="n">QuoteSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
-        <span class="n">PairVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
-        <span class="n">PairSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
-         <span class="p">)</span>
+      <span class="n">EdgeUnitsMultiplier</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+      <span class="n">EdgeUnitsPerTick</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
+      <span class="n">OrdersPerSide</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+      <span class="n">OrderSpacing</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+      <span class="n">OrderSpacingInTicks</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+      <span class="n">MinOrderSize</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="n">OrderSize</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">OrderSizeInc</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">PartialOrderMode</span> <span class="o">=</span> <span class="s1">&#39;FULL&#39;</span><span class="p">,</span>
+      <span class="n">PreserveRoundness</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
+      <span class="n">WorkingEdge</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span>
+      <span class="n">PosMax</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
+      <span class="n">PosMaxNewOrders</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
+      <span class="n">PosNormal</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
+      <span class="n">EntryEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">EntryEdgeInc</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="n">ExitEdge</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span>
+      <span class="n">ExitEdgeInc</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span>
+      <span class="n">PosEntryEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">PosExitEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">PosEdge</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span>
+      <span class="n">EntryRoundingMode</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="n">ExitRoundingMode</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">ExitColumnMode</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+      <span class="n">PortfolioPosEdge</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">PortfolioPosDenominator</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">PortfolioBeta</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
+      <span class="n">AddingOrderType</span> <span class="o">=</span> <span class="s1">&#39;ALO&#39;</span><span class="p">,</span>
+      <span class="n">MaxEdge</span> <span class="o">=</span> <span class="mi">50000</span><span class="p">,</span>
+      <span class="n">MaxPriceImprovement</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+      <span class="n">MinJoinVolume</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">OrderDelay</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">MinOrderHitTake</span> <span class="o">=</span> <span class="mi">500</span><span class="p">,</span>
+      <span class="n">RemovalEntryEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">RemovalExitEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">RemovalOrderType</span> <span class="o">=</span> <span class="s1">&#39;IOC&#39;</span><span class="p">,</span>
+      <span class="n">CancelDelay</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">PairBeta</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
+      <span class="n">PairDenom</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">PairEdge</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">BidsOnly</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
+      <span class="n">AsksOnly</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
+      <span class="n">PairColumnType</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">Strategy</span> <span class="o">=</span> <span class="s1">&#39;2 Sided Market Making&#39;</span><span class="p">,</span>
+      <span class="n">TradingEnabled</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+      <span class="n">OrderVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
+      <span class="n">OrderSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
+      <span class="n">QuoteVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
+      <span class="n">QuoteSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
+      <span class="n">PairVenue</span><span class="o">=</span><span class="s1">&#39;NSDQ&#39;</span><span class="p">,</span>
+      <span class="n">PairSymbol</span><span class="o">=</span><span class="s1">&#39;GRPN&#39;</span><span class="p">,</span>
+       <span class="p">)</span>
 </pre></div>
 </div>
 <ul>
@@ -652,37 +652,37 @@ what you want your valuation function to acomplish</em></p>
 is an average price which moves according to market data on trades, where more weight is given to the latest data.
 So if a lot of time goes by before a new trade happens then the value loses weight as the time passes, then when a new
 trade is registered the weight given to that data is much higher thus adjusting the price accordingly.</p>
-<p><strong>Throughout the example you will find links to items that are part of the :ref:`AL`, read these in order to fully
+<p><strong>Throughout the example you will find links to items that are part of the <a class="reference internal" href="atomlib.html#trade"><span class="std std-ref">Trade</span></a>, read these in order to fully
 understand how MP2 works as a valuation function in the Alpha Trading Labs model</strong></p>
 <ul class="simple">
 <li><em>italicized bullet points will serve as recommendations for when you write your valuation function</em></li>
 </ul>
 <p>Here is the function as a whole where we will look in detail how it reaches the price output.</p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">MP2</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-                <span class="n">trade_weight</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">trade_weight_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-                <span class="n">trade_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">tau_halflife</span><span class="o">=</span><span class="mf">1000.0</span><span class="p">):</span>
+              <span class="n">trade_weight</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">trade_weight_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
+              <span class="n">trade_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">tau_halflife</span><span class="o">=</span><span class="mf">1000.0</span><span class="p">):</span>
 
-                <span class="sd">&quot;&quot;&quot;tau_halflife is in milliseconds&quot;&quot;&quot;</span>
+              <span class="sd">&quot;&quot;&quot;tau_halflife is in milliseconds&quot;&quot;&quot;</span>
 
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span>
-        <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-        <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
-        <span class="n">last_trade</span> <span class="o">=</span> <span class="n">Last</span><span class="p">(</span><span class="n">trade</span><span class="p">)</span>
-        <span class="n">last_event_timestamp</span> <span class="o">=</span> <span class="n">Last</span><span class="p">(</span><span class="n">Timestamp</span><span class="p">(</span><span class="n">event</span><span class="p">))</span>
-        <span class="n">delta_time</span> <span class="o">=</span> <span class="n">Timestamp</span><span class="p">(</span><span class="n">event</span><span class="p">)</span> <span class="o">-</span> <span class="n">last_event_timestamp</span>
-        <span class="n">same_price</span> <span class="o">=</span> <span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">price</span> <span class="o">==</span> <span class="n">last_trade</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
-        <span class="n">decay</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="p">(</span><span class="o">-</span><span class="n">delta_time</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">*</span> <span class="n">tau_halflife</span><span class="p">))</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">qty</span> <span class="o">**</span> <span class="n">trade_exp</span><span class="p">)</span>
-        <span class="n">trade_price</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
-        <span class="n">y</span> <span class="o">=</span> <span class="n">WithInitial</span><span class="p">(</span><span class="mf">0.0</span><span class="p">)(</span><span class="k">lambda</span> <span class="n">last</span><span class="p">:</span> <span class="n">Join</span><span class="p">(</span><span class="n">Filter</span><span class="p">(</span><span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">),</span> <span class="n">decay</span> <span class="o">*</span> <span class="n">last</span><span class="p">),</span> <span class="n">Filter</span><span class="p">(</span><span class="n">Any</span><span class="p">(</span><span class="n">trade</span><span class="p">,</span> <span class="n">trade</span><span class="p">),</span> <span class="n">Select</span><span class="p">(</span><span class="n">same_price</span><span class="p">,</span> <span class="n">decay</span> <span class="o">*</span> <span class="n">last</span> <span class="o">+</span> <span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="p">))))</span>
-        <span class="n">numerator</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">q</span><span class="o">.</span><span class="n">bid_price</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">))</span> <span class="o">+</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_price</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">bid_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">)))</span>
-        <span class="n">denominator</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">q</span><span class="o">.</span><span class="n">bid_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">))</span>
-        <span class="n">weighted_trade_qty</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">trade_weight</span> <span class="o">**</span> <span class="n">trade_weight_exp</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span> <span class="o">**</span> <span class="n">trade_exp</span><span class="p">))</span>
-        <span class="n">v</span> <span class="o">=</span> <span class="p">(</span><span class="n">numerator</span> <span class="o">+</span> <span class="p">(</span><span class="n">trade_price</span> <span class="o">*</span> <span class="n">weighted_trade_qty</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">denominator</span> <span class="o">+</span> <span class="n">weighted_trade_qty</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">v</span>
+      <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+              <span class="k">raise</span> <span class="ne">TypeError</span>
+      <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+      <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
+      <span class="n">last_trade</span> <span class="o">=</span> <span class="n">Last</span><span class="p">(</span><span class="n">trade</span><span class="p">)</span>
+      <span class="n">last_event_timestamp</span> <span class="o">=</span> <span class="n">Last</span><span class="p">(</span><span class="n">Timestamp</span><span class="p">(</span><span class="n">event</span><span class="p">))</span>
+      <span class="n">delta_time</span> <span class="o">=</span> <span class="n">Timestamp</span><span class="p">(</span><span class="n">event</span><span class="p">)</span> <span class="o">-</span> <span class="n">last_event_timestamp</span>
+      <span class="n">same_price</span> <span class="o">=</span> <span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">price</span> <span class="o">==</span> <span class="n">last_trade</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
+      <span class="n">decay</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="p">(</span><span class="o">-</span><span class="n">delta_time</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">*</span> <span class="n">tau_halflife</span><span class="p">))</span>
+      <span class="n">x</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">qty</span> <span class="o">**</span> <span class="n">trade_exp</span><span class="p">)</span>
+      <span class="n">trade_price</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">(</span><span class="n">trade</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
+      <span class="n">y</span> <span class="o">=</span> <span class="n">WithInitial</span><span class="p">(</span><span class="mf">0.0</span><span class="p">)(</span><span class="k">lambda</span> <span class="n">last</span><span class="p">:</span> <span class="n">Join</span><span class="p">(</span><span class="n">Filter</span><span class="p">(</span><span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">),</span> <span class="n">decay</span> <span class="o">*</span> <span class="n">last</span><span class="p">),</span> <span class="n">Filter</span><span class="p">(</span><span class="n">Any</span><span class="p">(</span><span class="n">trade</span><span class="p">,</span> <span class="n">trade</span><span class="p">),</span> <span class="n">Select</span><span class="p">(</span><span class="n">same_price</span><span class="p">,</span> <span class="n">decay</span> <span class="o">*</span> <span class="n">last</span> <span class="o">+</span> <span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="p">))))</span>
+      <span class="n">numerator</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">q</span><span class="o">.</span><span class="n">bid_price</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">))</span> <span class="o">+</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_price</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">bid_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">)))</span>
+      <span class="n">denominator</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">q</span><span class="o">.</span><span class="n">bid_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">ask_qty</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="n">exp</span><span class="p">))</span>
+      <span class="n">weighted_trade_qty</span> <span class="o">=</span> <span class="n">Hold</span><span class="p">((</span><span class="n">trade_weight</span> <span class="o">**</span> <span class="n">trade_weight_exp</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span> <span class="o">**</span> <span class="n">trade_exp</span><span class="p">))</span>
+      <span class="n">v</span> <span class="o">=</span> <span class="p">(</span><span class="n">numerator</span> <span class="o">+</span> <span class="p">(</span><span class="n">trade_price</span> <span class="o">*</span> <span class="n">weighted_trade_qty</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">denominator</span> <span class="o">+</span> <span class="n">weighted_trade_qty</span><span class="p">)</span>
+      <span class="k">return</span> <span class="n">v</span>
 </pre></div>
 </div>
 <p>MP2 looks at the trade data and creates a prices based of that data by assigning weight to it. In order to be
@@ -690,8 +690,8 @@ able to change the calculated weight it has a series of arguments which can be c
 default value which will calculate prices with no extra weight. We will look at what each of these arguments do
 as they come up.</p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">MP2</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-                <span class="n">trade_weight</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">trade_weight_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
-                <span class="n">trade_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">tau_halflife</span><span class="o">=</span><span class="mf">1000.0</span><span class="p">):</span>
+              <span class="n">trade_weight</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">trade_weight_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
+              <span class="n">trade_exp</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">tau_halflife</span><span class="o">=</span><span class="mf">1000.0</span><span class="p">):</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -704,11 +704,11 @@ trading column parameters).</em></li>
 </ul>
 <p>MP2 then initializes the <a class="reference internal" href="atomlib.html#events"><span class="std std-ref">Events</span></a> it will keep track of during the time that the model runs:</p>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span>
-        <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-        <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
+              <span class="k">raise</span> <span class="ne">TypeError</span>
+      <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+      <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>In this case, a <a class="reference internal" href="atomlib.html#clock"><span class="std std-ref">Clock</span></a> ‘c’ to keep track of a lack of events, <a class="reference internal" href="atomlib.html#quote"><span class="std std-ref">Quote</span></a> ‘q’ to have access to the book and any
@@ -842,11 +842,11 @@ some code will not execute if the event it is addressing is not the most recent 
 <li>The lines of code that are run once, which initialize event nodes:</li>
 </ol>
 <div class="highlight-python"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
-                <span class="k">raise</span> <span class="ne">TypeError</span>
-        <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
-        <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
-        <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
+              <span class="k">raise</span> <span class="ne">TypeError</span>
+      <span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+      <span class="n">q</span> <span class="o">=</span> <span class="n">Quote</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">trade</span> <span class="o">=</span> <span class="n">Trade</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
+      <span class="n">event</span> <span class="o">=</span> <span class="n">Any</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">trade</span><span class="p">)</span>
 </pre></div>
 </div>
 <ol class="arabic simple" start="2">
@@ -895,16 +895,16 @@ want to always be able to produce the price at which you  want your orders place
 </div>
 
 
-          </div>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
+    </div>
+    <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebarwrapper">
 <p class="logo">
-  <a href="index.html">
-    <img class="logo" src="_static/logo.jpeg" alt="Logo"/>
-    
-  </a>
+<a href="index.html">
+  <img class="logo" src="_static/logo.jpeg" alt="Logo"/>
+  
+</a>
 </p>
 
 
@@ -947,40 +947,40 @@ want to always be able to produce the price at which you  want your orders place
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
-  <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter"><strong>Using Alpha Trading Labs</strong></a></li>
-      <li>Next: <a href="atomlib.html" title="next chapter"><strong>Alpha Trading Labs DSL</strong></a></li>
-  </ul></li>
+<li><a href="index.html">Documentation overview</a><ul>
+    <li>Previous: <a href="index.html" title="previous chapter"><strong>Using Alpha Trading Labs</strong></a></li>
+    <li>Next: <a href="atomlib.html" title="next chapter"><strong>Alpha Trading Labs DSL</strong></a></li>
+</ul></li>
 </ul>
 </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
+<h3>Quick search</h3>
+  <form class="search" action="search.html" method="get">
+    <div><input type="text" name="q" /></div>
+    <div><input type="submit" value="Go" /></div>
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
       </div>
-      <div class="clearer"></div>
     </div>
-    <div class="footer">
-      &copy;2017, Alpha Trading Labs.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
-      
-      |
-      <a href="_sources/tutorial.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
-
+    <div class="clearer"></div>
+  </div>
+  <div class="footer">
+    &copy;2017, Alpha Trading Labs.
     
-
+    |
+    Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+    &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
     
-  </body>
+    |
+    <a href="_sources/tutorial.rst.txt"
+        rel="nofollow">Page source</a>
+  </div>
+
+  
+
+  
+</body>
 </html>
